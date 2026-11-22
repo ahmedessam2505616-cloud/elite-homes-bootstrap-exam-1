@@ -1,0 +1,143 @@
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .mobile-menu {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero {
+    padding: 5rem 0 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero h1 {
+    font-size: 3.75rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 2.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .title {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .svc-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 575px) {
+  .stat-box.left {
+    left: -.5rem;
+  }
+
+  .stat-box.right {
+    right: -.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .tcar {
+    padding-inline: 5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .t-who {
+    flex-direction: row;
+    text-align: left;
+  }
+}
+
+@media (max-width: 767px) {
+  .t-who img {
+    margin: 0 0 .75rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .deco {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  .form-card {
+    padding: 2.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .two {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 768px) {
+  .foot-row {
+    flex-direction: row;
+  }
+}
+
+/* ---------- Accessibility ---------- */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+}
+
+@media (min-width: 768px) {
+  #t1:checked ~ .a-p1,
+  #t1:checked ~ .a-n1,
+  #t2:checked ~ .a-p2,
+  #t2:checked ~ .a-n2,
+  #t3:checked ~ .a-p3,
+  #t3:checked ~ .a-n3,
+  #t4:checked ~ .a-p4,
+  #t4:checked ~ .a-n4 {
+    display: flex;
+  }
+}
